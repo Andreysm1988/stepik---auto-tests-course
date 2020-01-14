@@ -18,7 +18,7 @@ try:
     WebDriverWait(browser, 12).until(
         EC.text_to_be_present_in_element(By.XPATH("//h5[@id='price']"), "$100")
     )
-    buttonBook = browser.find_element(By.XPATH, "//button[@id='book']").click()
+    buttonBook = browser.find_element_by_xpath("//button[@id='book']").click()
 
     x_element = browser.find_element(By.XPATH, "//span[@id='input_value']")
     x = x_element.text
