@@ -24,6 +24,7 @@ try:
     button = browser.find_element_by_tag_name("button")
     button.click()
 
+
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
     time.sleep(10)

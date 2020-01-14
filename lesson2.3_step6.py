@@ -26,6 +26,7 @@ try:
 
     browser.find_element_by_xpath("//button[@class='btn btn-primary']").click()
 
+
 finally:
     time.sleep(30)
     browser.quit()
